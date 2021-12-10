@@ -4,16 +4,42 @@
 body{
     margin: 0;
     padding: 0;
-    background-color:black;
-     background-image: url("gorseller/bf-asil.gif"); 
+  
+    background-image: url("gorseller/original.jpg"); 
+    background-position: absolute;
     background-repeat: no-repeat;
     background-size:cover;
     z-index: -1;
+
     
 }
-.container-fluid{
-position: sticky;
+
+.yorum{
+    color: aliceblue;
+    background-color: #111;
+    opacity: 0.9;
+
+    height: 150px;
+    width: 300px;
+    padding:10px;
+    margin: 20px;
+    text-align: center;
+    font-size:x-large;
+
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-family: 'Luxurious Script', cursive;
+    font-family: 'Titillium Web', sans-serif;
 }
+.yorum p{
+    z-index: 1;
+    color: turquoise;
+    font-size:large;
+
+}
+
+
 li a:hover {
     background-color: #111;
   }
@@ -21,57 +47,14 @@ li a:hover {
     z-index: 0;
     width:468px;
     height: 90px;
-  display: table;
-  position: relative;
-  overflow: hidden;
-  text-align:center;
-  margin: 50px auto;
-
-}
-#birincibaslik{
-    z-index: 1;
-    text-align: top;
-    text-align: left;
-
-}
-#soldiv1{
-   
-    width: 400px;
-    margin: 30px;
-
-}
-
-#soldiv2{
-
+    display: table;
+    position: relative;
+    overflow: hidden;
     text-align:center;
-    font-size: 50px;
-    padding: 30px;
-    color: white;
-    width: 400px;
-    margin: 30px;
+    margin: 50px auto;
 
 }
 
-#soldiv3{
-
-    text-align:center;
-    font-size: 25px;
-    padding: 30px;
-    color: white;
-    width: 400px;
-    margin: 30px;
-
-}
-.basliklar{
-    font-family: 'Barlow', sans-serif;
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Fira Sans Extra Condensed', sans-serif;
-    font-family: 'Luxurious Script', cursive;
-    font-family: 'Titillium Web', sans-serif;
-    color: white;
-    text-align:left;
-    
-}
 .nav-link{
     font-family: 'Barlow', sans-serif;
     font-family: 'Bebas Neue', cursive;
@@ -80,14 +63,5 @@ li a:hover {
     font-family: 'Titillium Web', sans-serif;
     font-weight: bolder;
 }
-.divler{
-    font-family: 'Barlow', sans-serif;
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Fira Sans Extra Condensed', sans-serif;
-    font-family: 'Luxurious Script', cursive;
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    background-color: black;
-}   
-   
+  
+
