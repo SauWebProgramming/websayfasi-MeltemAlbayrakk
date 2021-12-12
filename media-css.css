@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+}
+body{
+
+  background-image: url("gorseller/media-arkaplan.jpg"); 
+ 
+  background-position: absolute;
+  background-repeat:repeat-y;
+  background-size:cover;
+  z-index: -1;
+}
+
+.nav-link{
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-family: 'Luxurious Script', cursive;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bolder;
+}
+
+.example-image{
+  position:relative;
+
+  height: 25%;
+  width: 25%;
+  margin: 5px;
+}
+h1{
+
+  color: white;
+  text-align: center;
+  font-size: 500%;
+
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+

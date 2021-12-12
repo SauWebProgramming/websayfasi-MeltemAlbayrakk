@@ -13,7 +13,9 @@ body{
 
     
 }
-
+.navgenel{
+position: sticky;
+}
 .yorum{
     color: aliceblue;
     background-color: #111;
