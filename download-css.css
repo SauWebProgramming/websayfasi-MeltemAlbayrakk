@@ -15,10 +15,7 @@ li a:hover {
     background-color: #111;
   }
 .nav-link{
-    font-family: 'Barlow', sans-serif;
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Fira Sans Extra Condensed', sans-serif;
-    font-family: 'Luxurious Script', cursive;
+
     font-family: 'Titillium Web', sans-serif;
     font-weight: bolder;
 }

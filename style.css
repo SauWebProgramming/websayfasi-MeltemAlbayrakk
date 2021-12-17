@@ -4,14 +4,25 @@
 body{
     margin: 0;
     padding: 0;
-  
-    background-image: url("gorseller/bf-asil.jpg"); 
+    position: relative;
+    background-image: url("gorseller/bf-asil.gif"); 
     background-position: absolute;
     background-repeat: no-repeat;
     background-size:cover;
     z-index: -1;
 
     
+}
+#ealogo{
+    z-index: 0;
+    width:2%;
+    height: 2%;
+    display: table;
+    position: relative;
+    overflow: hidden;
+    text-align:center;
+    margin: 1px auto;
+    margin-top: -40px;
 }
 
 .yorum{
@@ -20,16 +31,13 @@ body{
     opacity: 0.9;
 
     height: 150px;
-    width: 300px;
+    width: 290px;
     padding:10px;
     margin: 20px;
     text-align: center;
     font-size:x-large;
 
-    font-family: 'Barlow', sans-serif;
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Fira Sans Extra Condensed', sans-serif;
-    font-family: 'Luxurious Script', cursive;
+
     font-family: 'Titillium Web', sans-serif;
 }
 .yorum p{
@@ -45,8 +53,8 @@ li a:hover {
   }
 #ortalogo{
     z-index: 0;
-    width:468px;
-    height: 90px;
+    width:468px ;
+    height: 90px ;
     display: table;
     position: relative;
     overflow: hidden;
@@ -56,15 +64,31 @@ li a:hover {
 }
 
 .nav-link{
-    font-family: 'Barlow', sans-serif;
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Fira Sans Extra Condensed', sans-serif;
-    font-family: 'Luxurious Script', cursive;
+
     font-family: 'Titillium Web', sans-serif;
     font-weight: bolder;
 }
 #soldivler{
+    
+    position:absolute;
+    left:0;
+    top: 20vh;
     float: left;
 }
-  
+#sagdivler{
+    position: absolute;
+    right:0;
+    top: 20vh;
+    
+}
+.aciklamayazisi{
+    color: white;
+
+    font-size: 150%;
+    text-align: center;
+    margin-top: 555px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 900;
+
+}
 
