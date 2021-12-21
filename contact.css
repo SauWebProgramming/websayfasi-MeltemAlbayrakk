@@ -42,7 +42,8 @@ h3{
     border: gray;
     border-radius: 8px;
     margin-left: 50px;
-
+    width:27%;
+    height:450px;
 }
 
 .input{
@@ -50,7 +51,7 @@ h3{
 }
 #onerialani{
     border-radius: 4px;
-
+    width: 100%;
 }
 .form-label{
     color: white;
@@ -61,5 +62,20 @@ h3{
 }
 .inputlar{
     float: right;
+    margin-right: 50px;
     font-family: 'Titillium Web', sans-serif;
+
+}
+#ortayazi{
+    width: 100%;
+    color:white;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    font-weight: 900;
+    margin:auto;
+    position:absolute;
+    margin-top: 10vh;
+    font-size: 1.1vw;
+
+    
 }
